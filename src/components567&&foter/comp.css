@@ -1,0 +1,251 @@
+.main {
+  margin-top: 50px;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  margin-top: 170px;
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.maindiv {
+  box-shadow: -1px 0px 5px 0px rgba(192, 191, 191, 0.75);
+  width: 80%;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(./comp5images/solutions-illo-mobile_1x.png);
+  background-repeat: no-repeat;
+  background-size: 800px 470px;
+  background-position: bottom right;
+  height: 570px;
+}
+.textdiv {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width:100%; */
+  height: 200px;
+  /* background-color: grey; */
+}
+.textdiv h1 {
+  margin-bottom: 20px;
+}
+/* Styling Component6 */
+
+.Component6 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  /* background-color: grey; */
+}
+
+.Component6_main {
+  box-shadow: -1px 0px 5px 0px rgba(192, 191, 191, 0.75);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f8f8;
+  width: 80%;
+  height: 950px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.Component6_main p {
+  color: grey;
+}
+.Component6_main h1 {
+  color: 424242;
+}
+
+.H1 {
+  margin-top: -60px;
+}
+.P1 {
+  margin-top: 15px;
+}
+.Component6_main1 {
+  display: flex;
+  border: 1px solid;
+  border-color: rgb(223, 220, 220);
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 500px;
+  background-color: white;
+}
+.Component6_main2 {
+  /* background-color: rgb(234, 229, 229); */
+  border-radius: 0px 0px 0px 10px;
+  width: 290px;
+  height: 440px;
+  margin-top: 60px;
+  border-right: 1px solid;
+  border-color: rgb(223, 220, 220);
+}
+
+.Component6_main21 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 40px;
+  /* background-color: rgb(187, 186, 186); */
+  height: 85px;
+  color: grey;
+}
+.Selected,
+.first {
+  background-color: #f48964;
+  color: white;
+}
+.Component6_main3 {
+  /* background-color: rgb(182, 161, 161); */
+  border-radius: 0px 10px 10px 0px;
+}
+
+.Component6_main31 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  background-color: #2e3a4d;
+  color: grey;
+  height: 62px;
+  border-radius: 0px 10px 0px 0px;
+}
+.Component6_main31 h6 {
+  margin-top: 10px;
+}
+
+.Swift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-bottom: 3px solid;
+  border-color: #f48964;
+  height: 50px;
+  width: 70px;
+  margin-left: -27px;
+}
+.Component6_main31 h6:hover {
+  color: white;
+}
+
+.code {
+  background-color: #f1f3f4;
+  height: 280px;
+  margin-top: 20px;
+}
+
+/* Styling Component7*/
+
+.Component7 h1,
+h6 {
+  color: #476282;
+}
+.Component7 h1 {
+  font-size: 50px;
+}
+.Component7 h6 {
+  font-size: 18px;
+}
+.Component7div1 img {
+  width: 100px;
+  margin-bottom: 25px;
+}
+.Component7 {
+  font-size: 14px;
+}
+.Component7 p:hover {
+  color: #1967d2;
+  cursor: pointer;
+}
+.Component7div1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+  height: 750px;
+}
+
+.Component7div2 {
+  background-color: white;
+  display: flex;
+  align-items: left;
+  gap: 300px;
+  border-top: 1px solid;
+  border-color: rgb(191, 190, 190);
+  /* justify-content: space-around; */
+  /* background-color: white; */
+  height: 290px;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-left: 20px;
+  color: grey;
+  /* background-color: red; */
+}
+.firstfoter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 20px;
+}
+.firstfoter img{
+margin-top:-1px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height:5px;
+}
+
+.firsthr {
+  margin-top: -30px;
+}
+.firsthr hr {
+  width: 97%;
+  margin: 21px;
+}
+.footer1{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: grey;
+width:130px;
+margin-bottom:5px;
+}
+.P3{
+  background-color: white;
+  width:70px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.P4{
+  background-color: white;
+  border-right:1px solid
+}
+.select2{
+  width:80px;
+  height:30px;
+  border-color:rgb(186, 182, 182);
+margin-bottom: 18px;
+background-color: white;
+border-radius: 3px;
+}

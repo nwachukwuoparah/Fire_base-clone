@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  margin: 0;
+  font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic,
+    Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    #1967d3 10%,
+    #f5f7f8,
+    #f3f6f7,
+    #ffffff
+  );
+  height: 700vh;
+}
+.Main_body {
+  height: 300vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pText {
+  font-size: 10px;
+  color: #38abeb;
+}
+.pText a {
+  text-decoration: inherit;
+  color: #38abeb;
+  font-size: larger;
+  font-weight: 900px;
+}
+.ptextDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #def0f9;
+  height: 50px;
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 300px;
+}
+.buttonDiv button {
+  background-color: red;
+}
+.try p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 25px;
+}
+.watch p {
+  margin-left: 20px;
+  border-right: 1px solid;
+}
+.buttonDiv p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  height: 20px;
+  width: 70px;
+}
+
+.buttonDiv p:hover {
+  border-radius: 15px;
+  /* opacity: 0.1; */
+  background-color: #f8f8f8;
+}
+
+.cont1 {
+  /* background-color: grey; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 400px;
+  color: white;
+  margin-left: 132px;
+}
+.cont2 {
+  /* background-color: red; */
+  margin-right: 30;
+}
+.cont2 h4 {
+  margin: 20px 0px;
+}
+.cont1 {
+  /* background-color: blue; */
+}
+/* Styling  Component1*/
+.mainComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comp1 {
+  box-shadow: -1px 0px 5px 0px rgba(192, 191, 191, 0.75);
+  margin-top: 80px;
+  background-color: #ffffff;
+  width: 80%;
+  height: auto;
+  border-radius: 15px;
+  color: grey;
+}
+/* .comp1:hover{
+  background-color: #D2E3FC;
+} */
+.Conponent1,
+img {
+  margin-top: -20px;
+}
+.Conponent1,
+h4 {
+  margin-top: 40px;
+}
+.Conponent1,
+h2 {
+  margin: 25px 0px;
+}
+.border {
+  box-shadow: -1px 0px 5px 0px rgba(192, 191, 191, 0.75);
+}
+.border:hover {
+  background-color: #d2e3fc;
+  cursor: pointer;
+}
+.atag a:hover {
+  color: #1967d2;
+}
+.maindiv3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  width: 100%;
+
+  font-size: 5px;
+}
+.master {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-color: grey; */
+  width: 89%;
+  height: 350px;
+  margin: 20px 56px;
+}
+.buttonDiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 50%;
+  /* background-color: grey; */
+  margin: 60px;
+}
+.buttonDiv button {
+  margin-left: 40px;
+  font-size: 15px;
+}
+.maincompFooter {
+  width: 100%;
+  height: 60px;
+  background-color: #eceff1;
+  margin-top: -20px;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonDiv3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  width: 100%;
+  margin: 50px 0px;
 
-.App-link {
-  color: #61dafb;
+  /* background-color: red; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonDiv3 button {
+  background-color: white;
+  font-size: 17px;
+  font-weight: 100px;
+}
+.buttonDiv3 button:hover {
+  background-color: #dce7fa;
+}
+.hr {
+  width: 80%;
+  margin-top: 80px;
 }
